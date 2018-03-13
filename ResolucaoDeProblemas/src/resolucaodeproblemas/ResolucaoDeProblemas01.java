@@ -14,7 +14,7 @@ public class ResolucaoDeProblemas01 {
 
     public static void main(String[] args) {
 
-        ArrayList<String> Pessoa = new ArrayList <String> ();
+        ArrayList<String> Cliente = new ArrayList <String> ();
         for (;;) {
             System.out.print("Digite sua Operacao:\n"
                     + "1 - Adicionar Cliente\n"
@@ -26,12 +26,12 @@ public class ResolucaoDeProblemas01 {
                 case 1:
                     System.out.println("Digite o nome:");
                     Scanner e = new Scanner(System.in);
-                    Pessoa.add(e.nextLine());
+                    Cliente.add(e.nextLine());
                     System.out.println("\n");
                     continue;
                 case 2:
-                    for (int i = 0; i < Pessoa.size(); i++) {
-                        System.out.println(Pessoa.get(i));
+                    for (int i = 0; i < Cliente.size(); i++) {
+                        System.out.println(Cliente.get(i));
                     }
                     System.out.println("\n");
                     continue;
